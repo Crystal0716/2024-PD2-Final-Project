@@ -10,6 +10,7 @@ public class Bonus extends HangMan
     {
         int answer  = randomNumber() ;
         int playTime = 1 ;
+        /**/
         boolean isTrue = false;
         player.loadBackgroundMusic("guessNumer",Paths.get("music/guessNumberBackGroundMusic.wav").toString());
         player.playBackGround("guessNumer",6);
