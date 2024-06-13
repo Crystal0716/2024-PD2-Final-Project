@@ -29,12 +29,12 @@ public class Bonus extends HangMan
                     answers = newAnswers;
                 }
                 
-                if((Integer.parseInt(inPutNumber)/1000) < 1 && !inPutNumbers[0].equals("0"))
+                if(inPutNumbers.length<4)
                 {
     
                     System.out.println("> you enter less than 4 numbers");
                 }
-                else if((Integer.parseInt(inPutNumber)/1000) > 9 )
+                else if(inPutNumbers.length>4 )
                 {
                     System.out.println("> you enter more than 4 numbers");
                 }
